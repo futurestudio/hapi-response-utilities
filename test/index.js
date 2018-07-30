@@ -60,4 +60,25 @@ experiment('hapi-response-utilities plugin', () => {
     expect(cookies).to.include('userId=1')
     expect(cookies).to.include('username=Marcus')
   })
+
+  it('tests the h.cookie decoration', async () => {
+    server.route({
+      path: '/',
+      method: 'GET',
+      handler: (_, h) => {
+        return h.pdf(null, 'hapi-response-utilities')
+      }
+    })
+
+    const request = {
+      url: '/',
+      method: 'GET'
+    }
+
+    const response = await server.inject(request)
+    expect(response.statusCode).to.equal(200)
+    expect(response.headers['content-type']).to.equal('application/pdf')
+    expect(response.headers['content-disposition']).to.contain('hapi-response-utilities')
+    expect(response.payload).to.exist()
+  })
 })
