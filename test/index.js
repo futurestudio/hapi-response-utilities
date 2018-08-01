@@ -61,7 +61,7 @@ experiment('hapi-response-utilities plugin', () => {
     expect(cookies).to.include('username=Marcus')
   })
 
-  it('tests the h.cookie decoration', async () => {
+  it('tests the h.pdf decoration', async () => {
     server.route({
       path: '/',
       method: 'GET',
