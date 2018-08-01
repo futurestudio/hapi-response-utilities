@@ -1,6 +1,6 @@
 {
   "name": "hapi-response-utilities",
-  "description": "hapi response decorations to conveniently send responses",
+  "description": "hapi response decorations to conveniently compose responses",
   "version": "0.0.0",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
