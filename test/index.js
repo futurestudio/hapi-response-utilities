@@ -19,12 +19,12 @@ experiment('hapi-response-utilities plugin', () => {
     })
   })
 
-  it('tests the h.sendStatus decoration', async () => {
+  it('tests the h.status decoration', async () => {
     server.route({
       path: '/',
       method: 'GET',
       handler: (_, h) => {
-        return h.sendStatus(204)
+        return h.status(204)
       }
     })
 
