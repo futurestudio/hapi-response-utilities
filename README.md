@@ -72,7 +72,7 @@ handler: (_, h) => {
 
 
 #### h.cookie(key, value, options)
-Sets a cookie by the given key-value-pair.
+Sets a cookie by the given key-value-pair. It's a convenience method for `h.state`.
 
 ```js
 handler: (_, h) => {
