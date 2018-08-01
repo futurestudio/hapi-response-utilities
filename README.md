@@ -2,8 +2,84 @@
   hapi-response-utilities
 </p>
 
-## Tbc.
-Soon :)
+------
+
+<p align="center"><sup>Development of this hapi plugin is supported by <a href="https://futurestud.io">Future Studio University 🚀</a></sup>
+<br><b>
+Join the <a href="https://futurestud.io/university">Future Studio University and Skyrocket in Node.js</a></b>
+</p>
+
+------
+
+
+## Introduction
+A hapi plugin that decorates the response toolkit `h` with methods to quickly and conveniently compose responses.
+
+
+### Requirements
+This plugin uses async/await which requires **Node.js v8 or newer**.
+
+
+## Installation
+Add `hapi-response-utilities` as a dependency to your project:
+
+```bash
+# NPM 5: this way is yours
+npm i hapi-response-utilities
+
+# NPM 4:
+npm i -S hapi-response-utilities
+```
+
+
+## Usage
+Register `hapi-response-utilities` to your hapi server and that's it :)
+
+```js
+await server.register({
+  plugin: require('hapi-response-utilities')
+})
+
+// went smooth like hot chocolate :)
+```
+
+
+## Methods
+An overview of available hapi `toolkit` decorations.
+
+
+#### h.pdf(pdf-content, filename)
+Text
+
+```js
+handler: async (_, h) => {
+  const content = await createPdfContent()
+  return h.pdf(content, 'hapi-response-utilities')
+}
+```
+
+
+#### h.status(code)
+Text
+
+```js
+handler: (_, h) => {
+  return h.status(204)
+}
+```
+
+
+#### h.cookie(keys)
+Text
+
+```js
+handler: (_, h) => {
+  h.cookie('userId', '1')
+  h.cookie('username', 'Marcus')
+  return h.response()
+}
+```
+
 
 ## Feature Requests
 Do you miss a feature? Please don’t hesitate to
