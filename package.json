@@ -1,10 +1,25 @@
 {
   "name": "hapi-response-utilities",
+  "description": "hapi response decorations to conveniently send responses",
   "version": "0.0.0",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
     "url": "https://github.com/fs-opensource/hapi-response-utilities/issues"
   },
+  "contributors": [
+    {
+      "name": "Marcus Poehls",
+      "email": "marcus@futurestud.io"
+    },
+    {
+      "name": "Norman Peitek",
+      "email": "norman@futurestud.io"
+    },
+    {
+      "name": "Christian Fellner",
+      "email": "christian@futurestud.io"
+    }
+  ],
   "devDependencies": {
     "code": "~5.2.0",
     "eslint": "~4.19.0",
