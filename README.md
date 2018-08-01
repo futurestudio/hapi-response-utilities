@@ -49,7 +49,9 @@ An overview of available hapi `toolkit` decorations.
 
 
 #### h.pdf(pdf-content, filename)
-Text
+Creates a PDF response including the PDF related content type and HTTP headers allowing a custom filename.
+
+The `filename` defaults to `download`.
 
 ```js
 handler: async (_, h) => {
@@ -60,7 +62,7 @@ handler: async (_, h) => {
 
 
 #### h.status(code)
-Text
+Shortcut to respond with just an HTTP status code.
 
 ```js
 handler: (_, h) => {
@@ -69,8 +71,8 @@ handler: (_, h) => {
 ```
 
 
-#### h.cookie(keys)
-Text
+#### h.cookie(key, value, options)
+Sets a cookie by the given key-value-pair.
 
 ```js
 handler: (_, h) => {
