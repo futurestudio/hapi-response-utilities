@@ -1,6 +1,28 @@
-<p align="center">
+<div align="center">
   hapi-response-utilities
-</p>
+
+  <br/>
+  <br/>
+  <p>
+    hapi response decorations to conveniently compose responses
+  </p>
+  <br/>
+  <p>
+    <a href="#installation"><strong>Installation</strong></a> ·
+    <a href="#usage"><strong>Usage</strong></a> ·
+    <a href="#methods"><strong>Methods</strong></a>
+  </p>
+  <br/>
+  <br/>
+  <p>
+    [![Build Status](https://travis-ci.org/fs-opensource/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/fs-opensource/hapi-response-utilities)
+    <a href="https://snyk.io/test/github/fs-opensource/hapi-response-utilities"><img src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities" style="max-width:100%;"></a>
+    <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/v/hapi-response-utilities.svg" alt="hapi-response-utilities Version" data-canonical-src="https://img.shields.io/npm/v/hapi-response-utilities.svg" style="max-width:100%;"></a>
+  </p>
+  <p>
+    <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
+  </p>
+</div>
 
 ------
 
