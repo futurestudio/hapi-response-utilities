@@ -78,7 +78,7 @@ The `filename` defaults to `download`.
 ```js
 handler: async (_, h) => {
   const content = await createPdfContent()
-  return h.pdf(content, 'hapi-response-utilities')
+  return h.pdf(content, 'filename.pdf')
 }
 ```
 
@@ -98,9 +98,10 @@ Sets a cookie by the given key-value-pair. It's a convenience method for `h.stat
 
 ```js
 handler: (_, h) => {
-  h.cookie('userId', '1')
-  h.cookie('username', 'Marcus')
-  return h.response()
+  return
+    h.cookie('userId', '1')
+     .cookie('username', 'Marcus')
+     .response()
 }
 ```
 
