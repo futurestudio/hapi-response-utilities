@@ -42,9 +42,10 @@ experiment('hapi-response-utilities plugin', () => {
       path: '/',
       method: 'GET',
       handler: (_, h) => {
-        h.cookie('userId', '1')
-        h.cookie('username', 'Marcus')
-        return h.response()
+        return h
+          .cookie('userId', '1')
+          .cookie('username', 'Marcus')
+          .continue
       }
     })
 
