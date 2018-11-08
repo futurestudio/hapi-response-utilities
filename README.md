@@ -101,7 +101,7 @@ handler: (_, h) => {
   return
     h.cookie('userId', '1')
      .cookie('username', 'Marcus')
-     .response()
+     .continue
 }
 ```
 
