@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## [1.1.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.0.1...v1.1.0) - 2018-11-08
+## [1.1.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.0.1...v1.1.0) - 2018-11-12
 
 ### Updated
 - `.cookie()` function returns the response toolkit instead of `undefined`
