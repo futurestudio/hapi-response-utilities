@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 
+## [1.2.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.1.0...v1.2.0) - 2018-11-xx
+
+### Added
+- Shortcut methods that set the related status code:
+  - `h.ok`: `200`
+  - `h.created`: `201`
+  - `h.accepted`: `202`
+  - `h.nonAuthoritativeInformation`: `203`
+  - `h.noContent`: `204`
+  - `h.resetContent`: `205`
+  - `h.partialContent`: `206`
+
+
 ## [1.1.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.0.1...v1.1.0) - 2018-11-12
 
 ### Updated
