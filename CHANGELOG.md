@@ -1,8 +1,6 @@
 # Changelog
 
-## [Unreleased]
-
-## [1.2.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.1.0...v1.2.0) - 2018-11-xx
+## [1.2.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.1.0...v1.2.0) - 2018-11-14
 
 ### Added
 - Shortcut methods that set the related status code:
