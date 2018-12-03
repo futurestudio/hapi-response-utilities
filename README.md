@@ -15,7 +15,7 @@
   <br/>
   <p>
 
-[![Build Status](https://travis-ci.org/fs-opensource/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/fs-opensource/hapi-response-utilities)
+[![Build Status](https://travis-ci.org/fs-opensource/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/fs-opensource/hapi-response-utilities) [![Greenkeeper badge](https://badges.greenkeeper.io/fs-opensource/hapi-response-utilities.svg)](https://greenkeeper.io/)
   <a href="https://snyk.io/test/github/fs-opensource/hapi-response-utilities"><img src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/v/hapi-response-utilities.svg" alt="hapi-response-utilities Version" data-canonical-src="https://img.shields.io/npm/v/hapi-response-utilities.svg" style="max-width:100%;"></a>
   </p>
