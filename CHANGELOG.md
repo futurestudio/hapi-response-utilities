@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.2.0...v1.3.0) - 2019-01-09
+
+### Added
+- `h.permanentRedirect(path)`: sends a redirect with HTTP status code for permanently moved `301`
+
+
 ## [1.2.0](https://github.com/fs-opensource/hapi-response-utilities/compare/v1.1.0...v1.2.0) - 2018-11-14
 
 ### Added
