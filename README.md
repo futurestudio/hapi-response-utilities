@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="471" style="max-width:100%;" src="https://github.com/fs-opensource/hapi-response-utilities/blob/master/media/hapi-response-utilities.png?raw=true" alt="hapi-response-utilities logo">
+  <img width="471" style="max-width:100%;" src="https://github.com/futurestudio/hapi-response-utilities/blob/master/media/hapi-response-utilities.png?raw=true" alt="hapi-response-utilities logo">
   <br/>
   <br/>
   <p>
@@ -15,8 +15,8 @@
   <br/>
   <p>
 
-[![Build Status](https://travis-ci.org/fs-opensource/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/fs-opensource/hapi-response-utilities) [![Greenkeeper badge](https://badges.greenkeeper.io/fs-opensource/hapi-response-utilities.svg)](https://greenkeeper.io/)
-  <a href="https://snyk.io/test/github/fs-opensource/hapi-response-utilities"><img src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/fs-opensource/hapi-response-utilities" style="max-width:100%;"></a>
+[![Build Status](https://travis-ci.org/futurestudio/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/futurestudio/hapi-response-utilities) [![Greenkeeper badge](https://badges.greenkeeper.io/futurestudio/hapi-response-utilities.svg)](https://greenkeeper.io/)
+  <a href="https://snyk.io/test/github/futurestudio/hapi-response-utilities"><img src="https://snyk.io/test/github/futurestudio/hapi-response-utilities/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-response-utilities" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/v/hapi-response-utilities.svg" alt="hapi-response-utilities Version" data-canonical-src="https://img.shields.io/npm/v/hapi-response-utilities.svg" style="max-width:100%;"></a>
   </p>
   <p>
@@ -108,7 +108,7 @@ handler: (_, h) => {
 
 ## Feature Requests
 Do you miss a feature? Please don’t hesitate to
-[create an issue](https://github.com/fs-opensource/hapi-response-utilities/issues) with a short description of your desired addition to this plugin.
+[create an issue](https://github.com/futurestudio/hapi-response-utilities/issues) with a short description of your desired addition to this plugin.
 
 
 ## Links & Resources
@@ -132,5 +132,5 @@ MIT © [Future Studio](https://futurestud.io)
 ---
 
 > [futurestud.io](https://futurestud.io) &nbsp;&middot;&nbsp;
-> GitHub [@fs-opensource](https://github.com/fs-opensource/) &nbsp;&middot;&nbsp;
+> GitHub [@futurestudio](https://github.com/futurestudio/) &nbsp;&middot;&nbsp;
 > Twitter [@futurestud_io](https://twitter.com/futurestud_io)
