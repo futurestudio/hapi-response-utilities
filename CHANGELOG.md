@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Version [1.3.3](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.2...v1.3.3) - 2019-02-18
+
+### Updated
+- bump dependencies
+- fix badges in Readme
+
+
 ## Version [1.3.2](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.1...v1.3.2) - 2019-01-26
 
 ### Updated
