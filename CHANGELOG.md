@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Version [1.3.4](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.3...v1.3.4) - 2019-04-24
+
+### Updated
+- bump dependencies
+- update to hapi scoped dependencies
+
+
 ## Version [1.3.3](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.2...v1.3.3) - 2019-02-18
 
 ### Updated
