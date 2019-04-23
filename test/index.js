@@ -1,13 +1,12 @@
 'use strict'
 
-const Lab = require('lab')
-const Code = require('code')
-const Hapi = require('hapi')
+const Lab = require('@hapi/lab')
+const Hapi = require('@hapi/hapi')
+const { expect } = require('@hapi/code')
 
 let server
 
 const { experiment, it, beforeEach } = (exports.lab = Lab.script())
-const expect = Code.expect
 
 experiment('hapi-response-utilities plugin', () => {
   beforeEach(async () => {
