@@ -7,6 +7,9 @@
 - `.redirectWithPayload(path)`: temporary redirect with HTTP status 307 (keeps the HTTP method)
 - `.permanentRedirectWithPayload(path)`: permanent redirect with HTTP status 308 (keeps the HTTP method)
 
+### Updated
+- bump dependencies
+
 
 ## Version [1.3.4](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.3...v1.3.4) - 2019-04-24
 
