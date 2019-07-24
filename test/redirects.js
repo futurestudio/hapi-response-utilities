@@ -50,5 +50,47 @@ describe('redirect responses:', () => {
       const response = await server.inject(request)
       expect(response.statusCode).to.equal(302)
     })
+
+    it('redirects temporarily with payload (status 307)', async () => {
+      server.route([
+        {
+          method: 'POST',
+          path: '/',
+          handler: (_, h) => {
+            return h.redirectWithPayload('/new')
+          }
+        }
+      ])
+
+      const request = {
+        url: '/',
+        method: 'POST'
+      }
+
+      const response = await server.inject(request)
+      expect(response.statusCode).to.equal(307)
+      expect(response.headers.location).to.equal('/new')
+    })
+
+    it('redirects permanently with payload (status 308)', async () => {
+      server.route([
+        {
+          method: 'POST',
+          path: '/',
+          handler: (_, h) => {
+            return h.permanentRedirectWithPayload('/new')
+          }
+        }
+      ])
+
+      const request = {
+        url: '/',
+        method: 'POST'
+      }
+
+      const response = await server.inject(request)
+      expect(response.statusCode).to.equal(308)
+      expect(response.headers.location).to.equal('/new')
+    })
   })
 })
