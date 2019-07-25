@@ -17,7 +17,8 @@
 
 [![Build Status](https://travis-ci.org/futurestudio/hapi-response-utilities.svg?branch=master)](https://travis-ci.org/futurestudio/hapi-response-utilities) [![Greenkeeper badge](https://badges.greenkeeper.io/futurestudio/hapi-response-utilities.svg)](https://greenkeeper.io/)
   <a href="https://snyk.io/test/github/futurestudio/hapi-response-utilities"><img src="https://snyk.io/test/github/futurestudio/hapi-response-utilities/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-response-utilities" style="max-width:100%;"></a>
-    <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/v/hapi-response-utilities.svg" alt="hapi-response-utilities Version" data-canonical-src="https://img.shields.io/npm/v/hapi-response-utilities.svg" style="max-width:100%;"></a>
+    <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/v/hapi-response-utilities.svg" alt="hapi-response-utilities Version"></a>
+    <a href="https://www.npmjs.com/package/hapi-response-utilities"><img src="https://img.shields.io/npm/dt/hapi-response-utilities.svg" alt="Total downloads"></a>
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
