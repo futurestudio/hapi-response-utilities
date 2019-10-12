@@ -1,6 +1,12 @@
 # Changelog
 
 
+## Version [1.4.1](https://github.com/futurestudio/hapi-response-utilities/compare/v1.4.0...v1.4.1) - 2019-10-12
+
+### Updated
+- bump dependencies
+
+
 ## Version [1.4.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.3.4...v1.4.0) - 2019-07-24
 
 ### Added
