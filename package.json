@@ -2,16 +2,10 @@
   "name": "hapi-response-utilities",
   "description": "hapi response decorations to conveniently compose responses",
   "version": "1.4.1",
-  "author": "Future Studio <info@futurestud.io>",
+  "author": "Marcus Pöhls <marcus@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-response-utilities/issues"
   },
-  "contributors": [
-    {
-      "name": "Marcus Poehls",
-      "email": "marcus@futurestud.io"
-    }
-  ],
   "devDependencies": {
     "@hapi/code": "~7.0.0",
     "@hapi/hapi": "~18.4.0",
@@ -36,6 +30,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-response-utilities.git"
