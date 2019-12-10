@@ -8,6 +8,9 @@
 - `.headers()`: provides a unified interface returning the response headers (no matter if hapi resonse or boom error)
 - `.header(key, value, options)`: provides a unified interface to set response headers. Works for both, a hapi response object or a boom error
 
+### Updated
+- bump dependencies
+
 
 ## Version [1.5.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.4.1...v1.5.0) - 2019-10-12
 
