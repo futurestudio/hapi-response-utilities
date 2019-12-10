@@ -95,7 +95,7 @@ handler: (_, h) => {
 
 
 #### h.cookie(key, value, options)
-Sets a cookie by the given key-value-pair. It's a convenience method for `h.state`.
+Sets a cookie for the given key-value-pair. It's a convenience method for `h.state`.
 
 ```js
 handler: (_, h) => {
@@ -103,6 +103,47 @@ handler: (_, h) => {
     h.cookie('userId', '1')
      .cookie('username', 'Marcus')
      .continue
+}
+```
+
+
+#### h.header(key, value, options)
+Set a response header for the given key-value-pair. This method provides a unified interface to set response headers, no matter if the response is a hapi response object or a boom error instance:
+
+```js
+handler: (_, h) => {
+  return h
+    .header('content-type', 'text/html')
+    .header('api-key', 'secret-api-key')
+    .continue
+}
+```
+
+The accepted [`options`](https://hapi.dev/api/?v=18.4.0#-responseheadername-value-options) are the same as provided by hapi itself.
+
+
+#### h.headers()
+Returns an object containing the response headers. This method provides a unified interface to set response headers, no matter if the response is a hapi response object or a boom error instance:
+
+```js
+handler: (_, h) => {
+  const responseHeaders = h.headers()
+
+  return h.continue
+}
+```
+
+
+#### h.isView()
+Determines whether the response is a rendered view:
+
+```js
+handler: (_, h) => {
+  if (h.isView()) {
+    // handle view response
+  }
+
+  return h.continue
 }
 ```
 
