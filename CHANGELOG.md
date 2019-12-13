@@ -12,7 +12,7 @@
 - bump dependencies
 
 
-## Version [1.5.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.4.1...v1.5.0) - 2019-10-12
+## Version [1.5.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.4.1...v1.5.0) - 2019-10-17
 
 ### Added
 - basic TypeScript declarations in `lib/index.d.ts`
