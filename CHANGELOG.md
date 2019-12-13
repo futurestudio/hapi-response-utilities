@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Version [1.6.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.5.0...v1.6.0) - 2019-12-xx
+## Version [1.6.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.5.0...v1.6.0) - 2019-12-13
 
 ### Added
 - `.isView()`: determine whether the response is a rendered view
