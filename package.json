@@ -7,7 +7,7 @@
     "url": "https://github.com/futurestudio/hapi-response-utilities/issues"
   },
   "devDependencies": {
-    "@hapi/code": "~7.0.0",
+    "@hapi/code": "~8.0.1",
     "@hapi/hapi": "~18.4.0",
     "@hapi/lab": "~21.0.0",
     "@hapi/vision": "~5.5.4",
