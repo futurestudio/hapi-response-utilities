@@ -36,22 +36,27 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 
 
 ## Introduction
-A hapi plugin that decorates the response toolkit `h` with methods to quickly and conveniently compose responses.
+A hapi plugin that decorates the response toolkit `h` with methods to conveniently compose responses.
 
 
-### Requirements
-This plugin uses async/await which requires **Node.js v8 or newer**.
+## Requirements
+> **hapi v19 (or later)** and **Node.js v12 (or newer)**
+
+This plugin requires **hapi v19** (or later) and **Node.js v12 or newer**.
+
+
+### Compatibility
+| Major Release | [hapi.js](https://github.com/hapijs/hapi) version | Node.js version |
+| --- | --- | --- |
+| `v2` | `>=19 @hapi/hapi` | `>=12` |
+| `v1` | `>=17 hapi` | `>=8` |
 
 
 ## Installation
 Add `hapi-response-utilities` as a dependency to your project:
 
 ```bash
-# NPM 5: this way is yours
 npm i hapi-response-utilities
-
-# NPM 4:
-npm i -S hapi-response-utilities
 ```
 
 
