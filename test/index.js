@@ -66,7 +66,7 @@ experiment('hapi-response-utilities', () => {
     }
 
     const response = await server.inject(request)
-    expect(response.statusCode).to.equal(200)
+    expect(response.statusCode).to.equal(204)
 
     const cookies = response.headers['set-cookie'].join(';').split(';')
     expect(cookies).to.include('userId=1')
@@ -88,7 +88,7 @@ experiment('hapi-response-utilities', () => {
     }
 
     const response = await server.inject(request)
-    expect(response.statusCode).to.equal(200)
+    expect(response.statusCode).to.equal(204)
     expect(response.headers['content-type']).to.equal('application/pdf')
     expect(response.headers['content-disposition']).to.contain('hapi-response-utilities')
     expect(response.payload).to.exist()
