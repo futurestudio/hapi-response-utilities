@@ -1,11 +1,11 @@
 # Changelog
 
 
-## Version [2.0.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.6.0...v2.0.0) - 2020-xx-xx
+## Version [2.0.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.6.0...v2.0.0) - 2020-01-10
 
 ### Breaking Changes
-- require hapi v19
 - require Node.js v12
+  - this change aligns with the hapi ecosystem requiring Node.js v12 with the release of hapi 19
 
 
 ## Version [1.6.0](https://github.com/futurestudio/hapi-response-utilities/compare/v1.5.0...v1.6.0) - 2019-12-13
