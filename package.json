@@ -38,7 +38,11 @@
     "url": "git+https://github.com/futurestudio/hapi-response-utilities.git"
   },
   "scripts": {
-    "prepush": "npm test",
     "test": "lab --assert @hapi/code --leaks --coverage --lint --reporter console --output stdout --reporter html --output ./coverage/coverage.html"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
