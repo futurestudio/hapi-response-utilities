@@ -23,11 +23,11 @@ experiment('hapi-response-utilities', () => {
       }
     })
 
-    await server.initialize()
-
     await server.register({
       plugin: require('../lib/index')
     })
+
+    await server.initialize()
   })
 
   it('status()', async () => {
@@ -107,9 +107,7 @@ experiment('hapi-response-utilities', () => {
         path: '/non-error',
         options: {
           handler: () => ({ success: true }),
-          ext: {
-            onPreResponse: { method }
-          }
+          ext: { onPreResponse: { method } }
         }
       })
 
