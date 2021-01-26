@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@hapi/code": "~8.0.2",
-    "@hapi/hapi": "~20.0.0",
+    "@hapi/hapi": "~20.1.0",
     "@hapi/lab": "~24.1.0",
     "@hapi/vision": "~6.0.1",
     "eslint": "~7.18.0",
