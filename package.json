@@ -18,7 +18,7 @@
     "eslint-plugin-promise": "~4.2.1",
     "eslint-plugin-standard": "~4.1.0",
     "handlebars": "~4.7.6",
-    "husky": "~4.3.0"
+    "husky": "~5.0.9"
   },
   "engines": {
     "node": ">=12"
